@@ -1,4 +1,4 @@
-# Afternoon Tea
+# Social Link Generator
 
 ### Getting started
 
