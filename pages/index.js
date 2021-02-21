@@ -75,6 +75,15 @@ const Home = () => {
     <div className="container">
       <div className="inner">
         <img src="../logo.png"/>
+        <h4>How to use:</h4>
+        <ol>
+          <li>Copy a link from the hundo website, e.g. https://hundo.careers/collabs/the-duppy-share</li>
+          <li>Paste it into the box labelled "Link"</li>
+          <li>Select the social media platform you wish to share the link with</li>
+          <li>Click "Generate Link"</li>
+          <li>Copy the link that appears in the "Sharing Link" box</li>
+          <li>Add the link to the Webflow CMS field matching the correct social media</li>
+        </ol>
         <div className="form">
           <label>Link</label>
           <input value={link} onChange={handleLinkChange}/>
@@ -193,6 +202,17 @@ const Home = () => {
 
         .error {
           color: red;
+        }
+
+        h4 {
+          color: #fff;
+          text-align: left;
+        }
+
+        ol {
+          color: #fff;
+          text-align: left;
+          margin-left: -24px;
         }
         
       `}</style>
